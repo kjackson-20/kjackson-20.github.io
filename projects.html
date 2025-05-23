@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kaden Jackson | Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kaden Jackson</h1>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="music_portfolio.html">Music Portfolio</a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h3>Movie Network Analysis</h3>
+        <p>
+          This project visualizes the character dynamics in <em>Avengers: Infinity War</em> using two large-scale network graphs. A narrative graph maps plot-driving interactions between the characters while a dialogue graph tracks who talks to whom. 
+          Graph theory metrics like centrality, betweenness, and embeddedness were then calculated and used to highlight and analyze the film's characters.
+        </p>
+        <p>
+          The original large-scale visualizations were created using Gephi but to improve readability
+          I also used Python and NetworkX to extract and render more condensed versions of each graph.
+        </p>
+        <p><strong>Class:</strong> INFSCI 0610 - Networks and Information</p>
+        <p><strong>Tools:</strong> Python, NetworkX, Gephi, Excel</p>
+        <p>
+          <a href="assets/gephi narrative graph.png" target="_blank">Large Scale Narrative Graph</a> |
+          <a href="assets/gephi dialogue gephi.png" target="_blank">Large Scale Dialogue Graph</a> |
+          <a href="assets/0610 Final Project Report.docx" target="_blank">Final Report</a>
+        </p>
+      </div>
+
+      <div class="project-photo side-stack">
+        <img src="assets/condensed character narrative network.png" alt="Narrative Graph">
+        <img src="assets/condensed character dialouge network.png" alt="Dialogue Graph" style="margin-top: 20px;">
+      </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-text">
+          <h3>NexusTrip - Transit App Redesign</h3>
+          <p>
+            NexusTrip is a user-focused redesign of Pittsburgh’s public transit signage and the Transit mobile app. Our group's goal was to address key rider pain points such as unreliable GPS data, unclear routes, and poor accessibility. 
+            We redesigned both the app interface and bus stop signage to improve usability, visual clarity, and feature accessibility.
+          </p>
+          <p>
+            Core features include real-time route tracking, favorite locations, and a simplified UI.
+            Our team conducted user testing to refine each iteration of wireframes and prototypes before ultimately coding the app in Android Studio.
+          </p>
+          <p><strong>Class:</strong> INFSCI 1430 - User Experience Engineering</p>
+          <p><strong>Tools:</strong> Figma, Flutter, Android Studio, Dart, Google Maps API</p>
+          <p>
+            <a href="https://github.com/SharifDahdaleh/AJSKL_Transit" target="_blank">GitHub Repo</a> |
+            <a href="assets/1430 Presentation.pptx" target="_blank">Presentation Slides</a>
+          </p>
+        </div>
+      
+        <div class="project-photo">
+          <video controls width="640">
+            <source src="assets/2024-12-09 17-12-37.mp4" type="video/mp4">
+            <p>Sorry, your browser can't display this video.
+              <a href="assets/2024-12-09 17-12-37.mp4" download>Click here to download it instead.</a>
+            </p>
+          </video>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-text">
+          <h3>Community-Based Projects Framework</h3>
+          <p>
+            In our semester-long project for INFSCI 1460, our group developed and presented a structured framework to guide capstone courses that focused on community-based projects within the School of Computing and Information (SCI) at the University of Pittsburgh.  
+            With guidance from Associate Dean Rosta Farzan and Professor Leona Mitchell, our team developed resources for training, engagement, and risk management in courses supporting marginalized communities.
+            Our deliverables included stakeholder management plans/interviews, a detailed risk register, a communication plan, a work breakdown sturcture, and a formal project charter for implementation by Spring 2025.
+          </p>
+          <p><strong>Class:</strong> INFSCI 1460 - IT Project Management</p>
+          <p><strong>Tools:</strong> Microsoft Project, Excel, PowerPoint, Word</p>
+        </div>
+        <div class="project-photo">
+            <a href="assets/proj timeline.png" target="_blank">
+              <img src="assets/proj timeline.png" alt="Community Project Timeline">
+            </a>
+          </div>
+      </div>
+      
+      
+      <div class="project-card">
+        <div class="project-text">
+          <h3>Vet Clinic Database</h3>
+          <p>
+            This database project models the full operational workflow of a veterinary clinic. 
+            It supports tracking of appointments, invoices, vaccinations, medication, procedures, and staff across multiple office locations. 
+          </p>
+          <p>
+            Our group designed an ER diagram, implemented the schema in MySQL, and populated the database with realistic data. 
+            Additionally, we created a set of functional SQL views and stored procedures to simplify common queries and simulate real-world tasks like visit logging and invoice generation.
+          </p>
+          <p><strong>Class:</strong> INFSCI 1500 - Database Management Concepts and Applications</p>
+          <p><strong>Tools:</strong> MySQL, SQL, Excel, Lucidchart, Microsoft Word</p>
+          <p>
+            <a href="assets/Pawsitively_Bite_Sized_SQL_Code.sql" target="_blank">SQL Code</a> |
+            <a href="assets/INFSCI 1500 Group 4 Design Document.docx" target="_blank">Design Document</a>
+          </p>
+        </div>
+        <div class="project-photo">
+          <img src="assets/ER diagram.jpg" alt="ER Diagram">
+        </div>
+      </div>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h3>NFL Wins by Season Visualization</h3>
+        <p>
+          An interactive line graph visualizing the total number of wins by every NFL team from 2003 to 2023. Each team’s line uses their uniform colors, and their Super Bowl-winning seasons are marked in gold. 
+          The visualization has a dropdown menu to filter the results based off conference and division and the graph can be used to analyze and highlight trends in the league from the 2 decades it spans such as dynasties, slumps, and overall league parity.
+        </p>
+        <p><strong>Class:</strong> INFSCI 1520 - Information Visualization</p>
+        <p><strong>Tools:</strong> Python, pandas, matplotlib, Jupyter Notebook</p>
+        <p>
+          <a href="https://github.com/kjackson-20/kgj8-InfoViz-FinalProj" target="_blank">GitHub Repo</a> |
+          <a href="assets/INFSCI_1520_Final.png" target="_blank">Static Picture of Final Visualization</a> |
+          <a href="https://www.kaggle.com/datasets/nickcantalupa/nfl-team-data-2003-2023" target="_blank">Dataset</a>
+        </p>
+      </div>
+      <div class="project-photo">
+        <video controls width="640">
+          <source src="assets/INFSCI1520 Final Viz Video.mp4" type="video/mp4">
+          <p>Sorry, your browser can't display this video.
+            <a href="assets/INFSCI 1520 Final Viz Video.mp4" download>Click here to download it instead.</a>
+          </p>
+        </video>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h3>This Website!</h3>
+        <p>This page was also created by me to highlight and present my experience and projects. 
+        </p>
+        <p><strong>Tools:</strong> HTML/CSS</p>
+        <p>
+            <a href="https://github.com/kjackson-20/kjackson-20.github.io" target="_blank">GitHub Repo</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-icons">
+      <a href="mailto:kjackson28478@gmail.com" target="_blank">
+        <img src="assets/new_mail.png" alt="Email" width="60" height="60">
+      </a>
+      <a href="https://github.com/kjackson-20" target="_blank">
+        <img src="assets/25231.png" alt="GitHub" width="60" height="60">
+      </a>
+      <a href="https://linkedin.com/in/kjackson20" target="_blank">
+        <img src="assets/bnw_link.png" alt="LinkedIn" width="60" height="60">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
